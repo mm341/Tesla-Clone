@@ -1,0 +1,68 @@
+form{
+    background-color: #fff  !important;
+    width: 100%  !important;
+    max-width: 100%  !important;
+    height: auto  !important;
+    padding: 15px  !important;
+}
+form .form-control{
+    border: none  !important;
+}
+form input ,form textarea ,form select{
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 50px !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    padding: 10px !important;
+    margin: 10px 0px !important;
+    border-radius: 4px !important;
+    color: #333 !important;
+    font-size: 17px !important;
+    outline: none !important;
+}
+form textarea{
+    height: 120px !important;
+}
+form select{
+    max-width:94% !important;
+    width: 94% !important;
+    margin-left: 10px !important;
+}
+
+form input:hover, form textarea:hover{
+    border :1px solid #565acf !important;
+    transition: .2s ease-in-out !important;
+    background-color: #f6f6f6 !important;
+}
+form button{
+    width: 100% !important;
+    max-width: 100% !important;
+    height:50px !important;
+    background-color: #565acf !important;
+    border:  1px solid  #565acf!important;
+    border-radius: 4px !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    font-size: 20px !important;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: transparent !important;
+    color: #565acf!important;
+    transition: .3s ease !important;
+}
+
+.side{
+    width: 100%  !important;
+    height: auto  !important;
+    border-radius: 4px  !important;
+    margin-top: 10px  !important;
+}
+.side .overlay{
+ background-color: #565acf  !important;
+ opacity: .9  !important;
+ padding: 15px  !important;
+ margin-top: 33px !important;
+}
