@@ -7,7 +7,7 @@ function Header() {
   const[burgerStatus,setBurgerStatus]=useState(false);
   return (
     <Container>
-   <Link to='/Tesla-Clone'>
+   <Link to='/Tesla-Clone/'>
     <img src={logoImg} alt=""/>
    </Link>
    <Menu>

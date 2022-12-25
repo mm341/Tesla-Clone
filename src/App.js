@@ -44,7 +44,7 @@ function App() {
       />}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/login' element={<Login/>}/>
-        <Route path='/Tesla-Clone' element={<Home/>}/>
+        <Route path='/Tesla-Clone/' element={<Home/>}/>
       </Routes>
       
     </div>
