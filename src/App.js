@@ -8,7 +8,7 @@ import Login from './Components/Login';
 import back1 from './imags/model-s.jpg'
 import back2 from './imags/model-y.jpg'
 import back3 from './imags/model-3.jpg'
-import back4 from '~./imags/model-x.jpg'
+import back4 from './imags/model-x.jpg'
 function App() {
   return (
     <div className="App">
@@ -44,7 +44,7 @@ function App() {
       />}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/login' element={<Login/>}/>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/Tesla-Clone' element={<Home/>}/>
       </Routes>
       
     </div>
